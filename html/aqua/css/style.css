@@ -117,7 +117,7 @@ section {
 	-webkit-border-radius: 1000px;
 	-ms-border-radius: 1000px;
 }
-.bg1 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
+.bg1 { background: url('../images/cptbackl.png') no-repeat 50% 0; }
 .bg2 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
 .bg3 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
 .bg4 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
@@ -222,7 +222,7 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 	padding: 0;
 }
 .logo .brand {
-	width: 115px;
+	width: 260px;
 	height: 24px;
 	display: block;
 	background: url('../images/logo.png') no-repeat 0 0;
