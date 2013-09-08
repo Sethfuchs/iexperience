@@ -118,10 +118,10 @@ section {
 	-ms-border-radius: 1000px;
 }
 .bg1 { background: url('../images/cptbackl.png') no-repeat 50% 0; }
-.bg2 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
+.bg2 { background: url('../images/bg-2.jpg') no-repeat 50% 0; }
 .bg3 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
 .bg4 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
-.bg5 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
+.bg5 { background: url('../images/bg-4.jpg') no-repeat 50% 0; }
 .bg1, .bg2, .bg3, .bg4, .bg5 {
 	height: 700px;
 	padding: 0;
