@@ -293,6 +293,18 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 	right: 20px;
 }
 
+/* ======================================================================== */
+/* ! A typical day
+/* ======================================================================== */
+.clock {
+	width: 35px;
+}
+
+.typical-time {
+	font-size: 18px;
+	margin: 5px 0 10px 0;
+}
+
 .button-apply {
 	padding: 7px !important;
 	margin: 13px;
@@ -301,6 +313,7 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 	color: white !important;
 	text-shadow: none !important;
 	background-color: #e97770;
+
 }
 
 /* ======================================================================== */
