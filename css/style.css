@@ -816,3 +816,9 @@ input[type="color"],
 	font-weight: bold;
 }
 
+.apply-form {
+	/*border: 1px solid red;*/
+	width: 700px;
+	margin: 0 auto;
+}
+
