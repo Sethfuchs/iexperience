@@ -117,7 +117,7 @@ section {
 	-webkit-border-radius: 1000px;
 	-ms-border-radius: 1000px;
 }
-.bg1 { background: url('../images/CAPE.jpg') no-repeat 50% 0; }
+.bg1 { background: url('../images/home-cover.jpg') no-repeat 50% 0; }
 .bg2 { background: url('../images/bg-2.jpg') no-repeat 50% 0; }
 .bg3 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
 .bg4 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
@@ -265,10 +265,12 @@ h6 { font: 300 14px/20px "Lato", sans-serif; }
 }
 .navbar-fixed-top .navbar-inner, 
 .navbar-static-top .navbar-inner {
-	border: none;
-	-webkit-box-shadow: none;
-	   -moz-box-shadow: none;
-			box-shadow: none;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
 }
 .dropdown-menu {
 	border: none;
@@ -773,11 +775,52 @@ input[type="color"],
 }
 
 /* ======================================================================== */
-/* !My own classes
+/* !Custom classes classes
 /* ======================================================================== */
 
 .program {
 	line-height: 40px;
 	margin-bottom: 40px;
+}
+
+.course-info {
+	border: 1px solid #9CE1F2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 250px;
+	padding: 10px;
+	margin: 10px 0 30px 0;
+	display: inline-block;
+
+}
+
+.tuition {
+	margin-right: 10px;
+}
+
+.course-info h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.course-info h4 {
+	margin: 0;
+}
+
+.apply-box a {
+	color: #98E6FA;
+	font-weight: bold;
+}
+
+.apply-box a:hover {
+	color: #6cd2ec;
+	font-weight: bold;
+}
+
+.apply-form {
+	/*border: 1px solid red;*/
+	width: 700px;
+	margin: 0 auto;
 }
 
