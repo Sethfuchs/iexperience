@@ -781,7 +781,3 @@ input[type="color"],
 	margin-bottom: 40px;
 }
 
-    .featurette {
-      overflow: hidden; /* Vertically center images part 2: clear their floats. */
-	  text-align: left;
-
