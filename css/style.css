@@ -526,6 +526,10 @@ footer a {
 	opacity: 0.85;
 	filter: alpha(opacity=85);
 }
+
+.member-photo {
+	border: 8px solid #c9c9c9;
+}
 .full-profile .member-name {
 	margin: 0 0 15px;
 }
@@ -821,4 +825,14 @@ input[type="color"],
 	width: 700px;
 	margin: 0 auto;
 }
+
+/* ======================== */
+/* MEET THE TEAM CUSTOM */
+/* ======================== */
+
+.centre-team {
+	display: inline-block;
+	margin: 0 auto;
+}
+
 
