@@ -567,6 +567,7 @@ footer a {
 /* ! Service
 /* ======================================================================== */
 .service-wrapper {
+	height: 720px;
 	background: #fff;
 	padding: 30px;
 	margin: 30px 0 0;
@@ -800,7 +801,7 @@ input[type="color"],
 
 }
 
-.tuition {
+.dates {
 	margin-right: 10px;
 }
 
@@ -824,7 +825,6 @@ input[type="color"],
 }
 
 .apply-form {
-	/*border: 1px solid red;*/
 	width: 700px;
 	margin: 0 auto;
 }
