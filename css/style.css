@@ -800,7 +800,7 @@ input[type="color"],
 
 }
 
-.tuition {
+.dates {
 	margin-right: 10px;
 }
 
@@ -824,7 +824,6 @@ input[type="color"],
 }
 
 .apply-form {
-	/*border: 1px solid red;*/
 	width: 700px;
 	margin: 0 auto;
 }
