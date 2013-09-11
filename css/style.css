@@ -838,3 +838,11 @@ input[type="color"],
 	margin: 0 auto;
 }
 
+#youtube-nKIu9yen5nc {
+	border: 8px solid #6cd2ec;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+			border-radius: 5px;
+}
+
