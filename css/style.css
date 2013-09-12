@@ -790,23 +790,23 @@ input[type="color"],
 }
 
 .course-info {
-	border: 1px solid #9CE1F2;
+/*	border: 1px solid #9CE1F2;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
-	width: 250px;
-	padding: 10px;
-	margin: 10px 0 30px 0;
-	display: inline-block;
+	border-radius: 5px;*/
+	width: 1000px;
+	padding: 0px 20px 20px 20px;
+	margin: 10px auto;
+	
 
-}
+}	
 
-.dates {
+/*.dates {
 	margin-right: 10px;
-}
+}*/
 
 .course-info h3 {
-	margin: 0;
+	margin: 10px;
 	font-weight: bold;
 }
 
@@ -827,6 +827,14 @@ input[type="color"],
 .apply-form {
 	width: 700px;
 	margin: 0 auto;
+}
+
+.pillar-box {
+	height: 170px;
+}
+
+.day-box {
+	margin-top: 55px;
 }
 
 /* ======================== */
