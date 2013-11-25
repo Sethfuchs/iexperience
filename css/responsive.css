@@ -12,6 +12,12 @@
 		width:auto;  
 		overflow:hidden; 
 	}
+
+	.service-wrapper {
+		height: 750px;
+		font-size: 14px;
+	}
+
 	.controls,
 	.control-group {
 		overflow: visible;
