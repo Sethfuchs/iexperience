@@ -856,3 +856,8 @@ input[type="color"],
 			border-radius: 5px;
 }
 
+.acceptance h2 {
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+

@@ -79,9 +79,9 @@
 		top: 57px;
 	}
 	.logo .brand {
-		width: 65px;
+		width: 150px;
 		height: 24px;
-		background-size: 65px 24px;
+		background-size: 150px 24px;
 		margin-left: 10px;
 	}
 	.bg1,
@@ -188,9 +188,9 @@
 		padding: 14px;
 	}
 	.logo .brand {
-		width: 65px;
+		width: 140px;
 		height: 24px;
-		background-size: 65px 24px;
+		background-size: 140px 24px;
 		margin-left: 10px;
 	}
 	.bg1,
@@ -279,10 +279,11 @@
 	top: -50px;
 	}
 	.logo .brand {
-		width: 65px;
+		width: 135px;
 		height: 24px;
-		background-size: 65px 24px;
+		background-size: 135px 20px;
 		margin-left: 10px;
+		margin-top: 16px;
 	}
 	.client-logo {
 		width: 50%;
@@ -306,7 +307,7 @@
     width: 100%;
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 25px;
+    /*padding-top: 25px;*/
     height: 0;
 }
 .videowrapper iframe {
