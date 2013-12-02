@@ -2,7 +2,7 @@
 @media (min-width: 1200px) {
 
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	body {
@@ -11,11 +11,6 @@
 	div { 
 		width:auto;  
 		overflow:hidden; 
-	}
-
-	.service-wrapper {
-		height: 750px;
-		font-size: 14px;
 	}
 
 	.controls,
@@ -64,8 +59,8 @@
 	.nav-collapse .nav > li > a, 
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
-		   -moz-border-radius: 0;
-		  		border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
 	}
 	.carousel-control {
 		display: none !important;
@@ -76,6 +71,10 @@
 	.icon-4x,
 	.icon-5x {
 		font-size: 3em;	
+	}
+	.service-wrapper {
+		height: 775px;
+		font-size: 14px;
 	}
 	.service-wrapper .full-rounded {
 		width: 160px;
@@ -100,7 +99,7 @@
 	}
 }
 
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	body {
@@ -158,8 +157,8 @@
 	.nav-collapse .nav > li > a, 
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
-		   -moz-border-radius: 0;
-		  		border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
 	}
 	.template-message {
 		text-align: center;
@@ -208,11 +207,14 @@
 		background-attachment: scroll;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	body {
 		padding: 50px 0 0;
+	}
+	.service-wrapper {
+		height: auto;
 	}
 	div { 
 		width:auto;  
@@ -278,12 +280,12 @@
 	.nav-collapse .nav > li > a, 
 	.nav-collapse .dropdown-menu a {
 		-webkit-border-radius: 0;
-		   -moz-border-radius: 0;
-		  		border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
 	}
 	.anchor {
-	position: absolute;
-	top: -50px;
+		position: absolute;
+		top: -50px;
 	}
 	.logo .brand {
 		width: 135px;
@@ -297,7 +299,7 @@
 		margin: 0 auto;
 	}
 	.dropdown-backdrop {
-	  display: none;
+		display: none;
 	}
 	.bg1,
 	.bg2,
@@ -310,18 +312,18 @@
 }
 
 .videowrapper {
-    float: none;
-    clear: both;
-    width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
-    /*padding-top: 25px;*/
-    height: 0;
+	float: none;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	/*padding-top: 25px;*/
+	height: 0;
 }
 .videowrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
