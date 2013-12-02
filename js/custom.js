@@ -2,44 +2,44 @@
 //Nav
 //////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function ($){
-    jQuery('.navbar .nav > li > a.scroll-link').click(function(){
-        jQuery.scrollTo( $(this).attr("href"), {
+	jQuery('.navbar .nav > li > a.scroll-link').click(function(){
+		jQuery.scrollTo( $(this).attr("href"), {
 			duration: 1000,
 			easing:'easeInOutExpo'			
 		});
 		return false;
-    });
+	});
 });
 //////////////////////////////////////////////////////////////////////////////////////////
 //Scrolling
 //////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function ($){
 	jQuery('.waypoint-1').waypoint(function() {
-	  jQuery(".hidden-element-1").addClass("visible-element");
+		jQuery(".hidden-element-1").addClass("visible-element");
 	}, { offset: '75%' });
 
 	jQuery('.waypoint-2').waypoint(function() {
-	  jQuery(".hidden-element-2").addClass("visible-element");
+		jQuery(".hidden-element-2").addClass("visible-element");
 	}, { offset: '75%' });
 	
 	jQuery('.waypoint-3').waypoint(function() {
-	  jQuery(".hidden-element-3").addClass("visible-element");
+		jQuery(".hidden-element-3").addClass("visible-element");
 	}, { offset: '75%' });
 	
 	jQuery('.waypoint-4').waypoint(function() {
-	  jQuery(".hidden-element-4").addClass("visible-element");
-	  jQuery('.percentage').easyPieChart({
-	      barColor: '#52bad5',
-	      trackColor: '#f3f6f8',
-	      scaleColor: false,
-	      lineCap: 'butt',
-	      rotate: -90,
-	      lineWidth: 5,
-	      animate: 3000,
-	      onStep: function(value) {
-	          this.$el.find('span').text(~~value);
-	      }
-	  });
+		jQuery(".hidden-element-4").addClass("visible-element");
+		jQuery('.percentage').easyPieChart({
+			barColor: '#52bad5',
+			trackColor: '#f3f6f8',
+			scaleColor: false,
+			lineCap: 'butt',
+			rotate: -90,
+			lineWidth: 5,
+			animate: 3000,
+			onStep: function(value) {
+				this.$el.find('span').text(~~value);
+			}
+		});
 	}, { offset: '75%' });
 });
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -59,6 +59,14 @@ jQuery(document).ready(function ($){
 		path: 'vertical'
 	});
 	$('.ilightbox-member-4').iLightBox({
+		skin: 'dark',
+		path: 'vertical'
+	});
+	$('.ilightbox-member-5').iLightBox({
+		skin: 'dark',
+		path: 'vertical'
+	});
+	$('.ilightbox-member-6').iLightBox({
 		skin: 'dark',
 		path: 'vertical'
 	});
@@ -102,30 +110,30 @@ jQuery('#portfolio-filter a').click(function(){
 	$container.isotope({ filter: selector });
 	jQuery(this).parents('ul').find('li').removeClass('active');
 	jQuery(this).parent().addClass('active');
-		return false;
+	return false;
 });
 //////////////////////////////////////////////////////////////////////////////////////////
 //Detect iPhone, iPod, iPad and remove or ativate parallax
 //////////////////////////////////////////////////////////////////////////////////////////
 var isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
+	Android: function() {
+		return navigator.userAgent.match(/Android/i);
+	},
+	BlackBerry: function() {
+		return navigator.userAgent.match(/BlackBerry/i);
+	},
+	iOS: function() {
+		return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	},
+	Opera: function() {
+		return navigator.userAgent.match(/Opera Mini/i);
+	},
+	Windows: function() {
+		return navigator.userAgent.match(/IEMobile/i);
+	},
+	any: function() {
+		return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	}
 };
 
 $(window).bind('load', function () {
@@ -148,7 +156,7 @@ function parallaxInit() {
 //////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function ($){
 	jQuery('.nav li a.scroll-link').on('click',function(){
-	    jQuery('.nav-collapse').collapse('hide');
+		jQuery('.nav-collapse').collapse('hide');
 	})
 });
 
@@ -157,7 +165,7 @@ jQuery(document).ready(function ($){
 //////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function ($){
 	$('.flexslider').flexslider({
-    	animation: "swing",
+		animation: "swing",
 		direction: "vertical", 
 		slideshow: true,
 		slideshowSpeed: 3500,
@@ -172,7 +180,7 @@ jQuery(document).ready(function ($){
 //////////////////////////////////////////////////////////////////////////////////////////
 jQuery(document).ready(function ($){
 	$('a[data-rel]').each(function() {
-	    $(this).attr('rel', $(this).data('rel'));
+		$(this).attr('rel', $(this).data('rel'));
 	});
 });  
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -180,10 +188,10 @@ jQuery(document).ready(function ($){
 //////////////////////////////////////////////////////////////////////////////////////////
 $(document).ready(function() {
 	$('body').jpreLoader({
-  		loaderVPos: "50%",
-  		splashFunction: function() {
-  			jQuery("body").addClass("visible-body");
-  			jQuery("body").removeClass("hidden-body");
-  		}
-    });
+		loaderVPos: "50%",
+		splashFunction: function() {
+			jQuery("body").addClass("visible-body");
+			jQuery("body").removeClass("hidden-body");
+		}
+	});
 });     
