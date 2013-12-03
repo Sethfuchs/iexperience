@@ -783,7 +783,7 @@ input[type="color"],
 }
 
 /* ======================================================================== */
-/* !Custom classes classes
+/* !Custom classes
 /* ======================================================================== */
 
 .program {
@@ -792,19 +792,9 @@ input[type="color"],
 }
 
 .course-info {
-/*	border: 1px solid #9CE1F2;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;*/
 	padding: 0px 20px 20px 20px;
 	margin: 10px auto;
-	
-
 }	
-
-/*.dates {
-	margin-right: 10px;
-}*/
 
 .course-info h3 {
 	margin: 10px;
@@ -865,3 +855,11 @@ input[type="color"],
 	margin: 0 auto;
 }
 
+/* ======================================================================== */
+/* !Ambassador page
+/* ======================================================================== */
+
+h4.ambassador {
+	font-weight: 700;
+	margin-bottom: 8px;
+}
