@@ -70,6 +70,10 @@ jQuery(document).ready(function ($){
 		skin: 'dark',
 		path: 'vertical'
 	});
+	$('.ilightbox-member-7').iLightBox({
+		skin: 'dark',
+		path: 'vertical'
+	});
 });
 //////////////////////////////////////////////////////////////////////////////////////////
 //iLightbox settings for the portfolio
