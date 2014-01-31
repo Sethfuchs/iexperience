@@ -579,6 +579,11 @@ footer a {
 	    -ms-box-sizing: border-box;
 			box-sizing: border-box;
 }
+
+.service-wrapper.sa {
+	height: auto;
+	}
+
 .service-wrapper h4,
 .service-wrapper dt {
 	font: 700 20px/24px "Lato", sans-serif
