@@ -569,9 +569,9 @@ footer a {
 /* ! Service
 /* ======================================================================== */
 .service-wrapper {
-	height: 750px;
+	height: 450px;
 	background: #fff;
-	padding: 30px;
+	padding: 15px 30px 15px 30px;
 	margin: 30px 0 0;
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -610,14 +610,14 @@ footer a {
 	top: 65px;
 	left: 1px;
 }
-.service-wrapper:hover {
-	text-decoration: none;
-	top: -10px;
-	-webkit-transition: 0.25s;
-	   -moz-transition: 0.25s;
-		-ms-transition: 0.25s;
-			transition: 0.25s;
+
+.why-code {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto 30px;
 }
+
+
 /* ======================================================================== */
 /* ! Portfolio
 /* ======================================================================== */
@@ -821,11 +821,15 @@ input[type="color"],
 }
 
 .pillar-box {
-	height: 170px;
+	height: auto;
 }
 
 .day-box {
 	margin-top: 55px;
+}
+
+.no-skills {
+	margin-top: 30px;
 }
 
 /* ======================== */
@@ -853,6 +857,10 @@ input[type="color"],
 .megawrapper {
 	max-width: 970px;
 	margin: 0 auto;
+}
+
+.aaron-quote {
+	font: 300 39px/52px "Lato", sans-serif;
 }
 
 /* ======================================================================== */

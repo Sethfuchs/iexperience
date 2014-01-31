@@ -73,8 +73,18 @@
 		font-size: 3em;	
 	}
 	.service-wrapper {
-		height: 775px;
+		height: 480px;
 		font-size: 14px;
+	}
+
+	.why-code {
+		height: 110px;
+		width: 110px;
+		margin: 0 auto 30px;
+	}
+
+	.aaron-quote {
+		font: 300 28px/47px "Lato", sans-serif;;
 	}
 	.service-wrapper .full-rounded {
 		width: 160px;

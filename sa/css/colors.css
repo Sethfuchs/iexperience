@@ -108,12 +108,11 @@
 .page-aqua #portfolio-filter .active a:hover,
 .page-aqua .pricing-action a.bg-quivee,
 .page-aqua .accordion-toggle:hover,
-.page-aqua .service-wrapper:hover,
 .page-aqua .dropdown-menu li > a:hover,
 .page-aqua .dropdown-menu li > a:focus,
 .page-aqua .dropdown-submenu:hover > a,
 .page-aqua .post a:hover .hover {
-	background: #52bad5 url(../images/overlay.png) repeat 0 0;
+	background: #52bad5 repeat 0 0;
 	color: #fff;
 	text-shadow: none;
 	border: none;
