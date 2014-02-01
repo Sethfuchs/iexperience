@@ -104,7 +104,9 @@
 	.bg3,
 	.bg4,
 	.bg5,
-	.bg6 {
+	.bg6,
+	.bg7,
+	.bg8 {
 		background-attachment: scroll;
 	}
 }
@@ -213,7 +215,9 @@
 	.bg3,
 	.bg4,
 	.bg5,
-	.bg6 {
+	.bg6,
+	.bg7,
+	.bg8 {
 		background-attachment: scroll;
 	}
 }
@@ -316,7 +320,8 @@
 	.bg3,
 	.bg4,
 	.bg5,
-	.bg6 {
+	.bg6,
+	.bg7 {
 		background-attachment: scroll;
 	}
 }
