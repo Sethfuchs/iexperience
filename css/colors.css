@@ -118,6 +118,19 @@
 	text-shadow: none;
 	border: none;
 }
+
+.page-aqua .btn-white {
+	background: #6cd2ec url(../images/overlay.png) repeat 0 0;
+	color: #fff;
+	text-shadow: none;
+	border: none;
+	font-size: 25px;
+}
+
+.page-aqua .btn-white:hover {
+	background: #97D8E9 none;
+}
+
 .page-aqua a,
 .page-aqua .emphasis,
 .page-aqua .member-wrapper a:hover i,
