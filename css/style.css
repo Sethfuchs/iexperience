@@ -869,3 +869,23 @@ h4.ambassador {
 	font-weight: 700;
 	margin-bottom: 8px;
 }
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+	max-height: 150px;
+	max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
