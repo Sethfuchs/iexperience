@@ -889,3 +889,13 @@ h4.ambassador {
     display: inline-block;
     vertical-align: middle;
 }
+
+.intern-logo-wrapper {
+	border: 1px solid #DCDCDC; 
+	height: 200px;
+}
+
+.intern-description-wrapper {
+	border: 1px solid #DCDCDC;
+	min-height: 200px;
+}
