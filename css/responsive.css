@@ -3,6 +3,17 @@
 
 }
 
+@media (min-width: 980px) and (max-width: 1199px) {
+	.logo .brand {
+		width: 164px;
+		background-size: 164px 22px;
+	}
+
+	.navbar .brand {
+		margin-top: 18px;
+	}
+}
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 	body {
@@ -86,7 +97,7 @@
 	.logo .brand {
 		width: 150px;
 		height: 24px;
-		background-size: 150px 24px;
+		background-size: 164px 22px;
 		margin-left: 10px;
 	}
 	.bg1,
@@ -193,9 +204,9 @@
 		padding: 14px;
 	}
 	.logo .brand {
-		width: 140px;
+		width: 164px;
 		height: 24px;
-		background-size: 140px 24px;
+		background-size: 164px 22px;
 		margin-left: 10px;
 	}
 	.bg1,
@@ -290,7 +301,7 @@
 	.logo .brand {
 		width: 135px;
 		height: 24px;
-		background-size: 135px 20px;
+		background-size: 145px 20px;
 		margin-left: 10px;
 		margin-top: 16px;
 	}

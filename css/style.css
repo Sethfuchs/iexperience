@@ -123,9 +123,8 @@ section {
 .bg4 { background: url('http://placehold.it/1920x780') no-repeat 50% 0; }
 .bg5 { background: url('../images/bg-4.jpg') no-repeat 50% 0; }
 .bg6 { background: url('../images/bg-6.jpg') no-repeat 50% 0; }
-.bg7 { background: url('../images/bg-7.jpg') no-repeat 50% 0; }
 
-.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 {
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {
 	height: 700px;
 	padding: 0;
 	background-attachment: fixed;
@@ -580,11 +579,6 @@ footer a {
 	    -ms-box-sizing: border-box;
 			box-sizing: border-box;
 }
-
-.service-wrapper.sa {
-	height: auto;
-	}
-
 .service-wrapper h4,
 .service-wrapper dt {
 	font: 700 20px/24px "Lato", sans-serif
