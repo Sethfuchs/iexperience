@@ -826,6 +826,7 @@ input[type="color"],
 
 .day-box {
 	margin-top: 55px;
+	margin-bottom: 30px;
 }
 
 /* ======================== */
@@ -837,13 +838,13 @@ input[type="color"],
 	margin: 0 auto;
 }
 
-#youtube-nKIu9yen5nc {
+/*#youtube-nKIu9yen5nc {
 	border: 8px solid #6cd2ec;
 	-webkit-border-radius: 5px;
 	   -moz-border-radius: 5px;
 		-ms-border-radius: 5px;
 			border-radius: 5px;
-}
+}*/
 
 .acceptance h2 {
 	font-size: 40px;
@@ -862,4 +863,27 @@ input[type="color"],
 h4.ambassador {
 	font-weight: 700;
 	margin-bottom: 8px;
+}
+
+.testimonials {
+	margin-bottom: 40px;
+}
+
+.student-testimonial {
+	width: 260px;
+	height: auto;
+	border: 5px solid #c9c9c9;
+	margin-bottom: 15px;
+}
+
+.testimonial-wrapper {
+	height: auto;
+	background: #fff;
+	padding: 30px 30px 0 30px;
+	margin: 30px 0 0;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
