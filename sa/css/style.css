@@ -882,3 +882,12 @@ h4.ambassador {
 	position: absolute;
 	margin: 0 auto;
 }
+
+.underline hr {
+	margin: 30px auto;
+	max-width: 900px;
+	height:1px; 
+	border:none; 
+	color:#FFF; 
+	background-color:#FFF;
+}
